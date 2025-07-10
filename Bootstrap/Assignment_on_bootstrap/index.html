@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7b66aaa5b1.js" crossorigin="anonymous"></script>
+    <title>WebPage</title>
+    <style>
+        .carousel-inner img {
+          height: 400px; /* Adjust to desired height */
+          object-fit: cover; /* Makes image fill the space without distortion */
+        }
+        .card-block{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            align-items:stretch;
+            padding: 30px;
+        }
+        .footer{
+            padding: 50px;
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            font-size: larger;
+        }
+        </style>
+        
+        
+</head>
+<body>
+        <div>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./indoorFlowers.jpg" class="d-block w-100"  alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./beach.jpg" class="d-block w-100"  alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./flowers.jpg" class="d-block w-100"  alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="card-block">
+            <div class="card" style="width: 18rem;">
+                <img src="./thumb1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Messi's debut</h5>
+                  <a href="https://www.youtube.com/watch?v=LmwPop3Pulg&ab_channel=LALIGAEASPORTS" class="btn btn-primary"style="width: 100%;">Watch now!</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./thumb2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">MSN</h5>
+                  <a href="https://www.youtube.com/watch?v=lkCM5DyBxzg&ab_channel=RptimaoTV" class="btn btn-primary" style="width: 100%;" >Watch now!</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./thumb3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The Goat</h5>
+                  <a href="https://www.youtube.com/watch?v=8PCwX2wRJqQ&ab_channel=MagicalMessi" class="btn btn-primary" style="width: 100%;">Watch now!</a>
+                </div>
+              </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <div class="footer">
+        Deepankar Biswal
+        <i class="fa-regular fa-copyright"></i>
+    </div>
+    </body>
+</html>
